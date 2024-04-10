@@ -1,19 +1,47 @@
 alert("Boas vindas ao jogo do número secreto!");
-let numeroSecreto = 29;
+let numeroSecreto = parseInt(Math.random() * 100 + 1);
 console.log(numeroSecreto);
 
 //declarando o chute e também informando ao desenvolvedor
-let chute = prompt("Escolha um número entre 1 e 30");
+let chute;
+let tentativas = 1;
 console.log(chute);
 console.log('Resultado da comparação', chute == numeroSecreto);
 
 
-// se chute for igual ao número secreto
+//enquanto o chute não for igual ao número secreto
 
-if(numeroSecreto == chute) {
-    alert(`Isso aí, você descobriu o número secreto (${numeroSecreto})`);
+while (numeroSecreto != chute) {
+
+    chute = prompt("Escolha um número entre 1 e 100");
+
+    // se chute for igual ao número secreto
+
+    if(numeroSecreto == chute) {
+        break;    
+    }
+
+    else{
+        if (numeroSecreto > chute) {
+            alert(`Você não acertou! O número secreto é maior que ${chute}`);
+        }
+        else {
+            alert(`Você não acertou! O número secreto é menor que ${chute}`);
+        }
+        //tentativas = tentativas + 1
+        tentativas++;
+    }
+
 }
 
-else{
-    alert("Você errou!");
-}
+let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'
+
+alert(`Isso aí, você descobriu o número secreto (${numeroSecreto}) com ${tentativas} ${palavraTentativa}`);
+
+//if (tentativas > 1){
+//    alert(`Isso aí, você descobriu o número secreto (${numeroSecreto}) com ${tentativas} tentativas`);
+//}
+
+//else{
+//    alert(`Isso aí, você descobriu o número secreto (${numeroSecreto}) com ${tentativas} tentativa`);
+//}

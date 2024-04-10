@@ -69,6 +69,39 @@
 
 //alert(`O valor da sua conta é R$ ${valorDaConta}`);
 
-let nome = prompt("Olá, qual é o seu nome?");
+//let nome = prompt("Olá, qual é o seu nome?");
 
-alert(`Seja muito bem vindo! ${nome}!`);
+//alert(`Seja muito bem vindo! ${nome}!`);
+
+//let cont = 1;
+//alert("Bem vindo ao contador!");
+//while (cont < 11) {
+//    alert(`O número atual é ${cont}`);
+//    cont++;
+//}
+
+//let cont = 10;
+//alert("Bem vindo ao contador descrescente!");
+//while(cont > -1 ) {
+//    alert(`O número atual é ${cont}`)
+//    cont--;
+//}
+
+//alert("Bem vindo ao programa da contagem regressiva!");
+//let numero = prompt("Digite um número de 1 até 20");
+//while (numero > -1){
+//    alert(`O número atual é ${numero}`);
+//    numero--;
+//}
+
+//alert("Bem vindo ao programa da contagem progressiva!");
+//let numero = prompt("Digite o número até onde você quer contar: ");
+//let cont = 0;
+//while(numero != cont) {
+//    cont++;
+//    alert(`O número atual é ${cont}`);
+//}
+
+let nome = Luiz;
+console.log(`Seja bem vindo! ${nome}`);
+alert(`Seja bem vindo ${nome}`);
