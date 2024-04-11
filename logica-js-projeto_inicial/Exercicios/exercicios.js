@@ -102,6 +102,48 @@
 //    alert(`O número atual é ${cont}`);
 //}
 
-let nome = Luiz;
-console.log(`Seja bem vindo! ${nome}`);
-alert(`Seja bem vindo ${nome}`);
+
+//let nome = "Luiz";
+
+//alert(`Seja bem vindo ${nome}`);
+
+//console.log(`Seja bem vindo! ${nome}`);
+
+//let linguagem = prompt("Qual é a linguagem de programação que você mais gosta?");
+
+//console.log(`A linguagem de programação que o usuário mais gosta é ${linguagem}`)
+
+//let n1 = parseInt(prompt("Digite um valor"));
+//let n2 = parseInt(prompt("Digite um outro valor"));
+//let r = parseInt(n1 + n2);
+//console.log(`O valor obtido é ${r}`);
+
+//let n1 = parseInt(prompt("Digite um número:"));
+//let n2 = parseInt(prompt("Digite um outro número:"));
+
+//let r = n1 - n2;
+
+//console.log(`O resultado da subtração é ${r}`);
+
+//let idade = parseInt(prompt("Qual é a sua idade?"));
+
+//if (idade >= 18) {
+//    console.log("Esta pessoa é maior de idade");
+//}
+
+//else{
+//    console.log("Esta pessoa é menor de idade");
+//}
+
+//let nota = parseFloat(prompt("Qual foi a sua nota?"));
+
+//if (nota >= 7){
+//    console.log("Esta pessoa passou de ano!");
+//}
+//else{
+//    console.log("Esta pessoa não passou de ano!");
+//}
+
+//let numero = parseInt(Math.random() *1000 + 1 );
+
+//console.log(`O número gerado é ${numero}`);
